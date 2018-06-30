@@ -1,0 +1,15 @@
+.md,
+.ios {
+    .scroll-content {
+        overflow: auto;
+    }
+    hr {
+        width: 100%; //  ¯\(°_o)/¯ //
+    }
+    .active-menu-item {
+        box-shadow: inset -3px 0px 0px map-get($colors, primary);
+    }
+    .split-pane-none {
+        display: none!important;
+    }
+}
